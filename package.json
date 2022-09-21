@@ -1,0 +1,29 @@
+{
+  "name": "cards",
+  "version": "1.0.0",
+  "description": "cards for email",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "budo js/demo.js:bundle.js --open --live",
+    "build": "browserify js/demo.js > bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hornet004/cards.git"
+  },
+  "keywords": [
+    "email",
+    "cards"
+  ],
+  "author": "Hornet004",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hornet004/cards/issues"
+  },
+  "homepage": "https://github.com/Hornet004/cards#readme",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "budo": "^11.8.4"
+  }
+}

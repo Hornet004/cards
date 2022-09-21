@@ -1,0 +1,159 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+}
+.background_card{
+background-color: #161515;
+width: 50%;
+margin: auto;
+}
+
+.user_greeting, .user_unsubscribe{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    background: #F5F5F5;
+    width: 100%;
+    height: 8vh;
+    padding: 8px;
+    color:#161515;;
+}
+.user_greeting h2{
+    color: #161515;
+}
+.user_greeting span{
+    color: #7F00FF;;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+height: 190px;
+background: #7F00FF;
+align-items: center;
+}
+.image_header{
+padding: 32px;
+} 
+nav{
+    width: 100%;
+}
+nav a:hover{
+    background-color: #4CAF50   ;
+}
+    
+ul{
+    display: flex;
+    padding: 8px 32px;
+    gap: 92px;
+
+}
+.ul,li{
+    list-style-type: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px;
+
+color: #FFFFFF;
+}
+.li{
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.card{
+    width: 50%;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    background-color: #7F00FF;
+    border-radius: 8px;
+    padding: 12px 24px;
+    width: 132px;
+    
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+a{
+    color: white;
+    text-decoration: none;
+}
+.offer{
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 40px;
+    padding: 16px;
+    color: #85BB65;
+    height: 40px;
+    text-transform: uppercase;
+}
+p{
+font-weight: 500;
+font-size: 12px;
+line-height: 20px;
+padding: 8px;
+
+text-align: center;
+color: #878B93;
+width: 90%;
+}
+
+.produt_details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+
+}
+span{
+    color: #878B93;
+    font-weight: 600;
+    font-size: 16px;
+}
+h2{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+}
+.price{
+ color: #85BB65;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-direction: column;
+    background: #282828;
+    padding: 24px;
+}
+.social_media{
+    display: flex;
+    gap: 16px;
+}
+.user_unsubscribe a{
+color: #ba495a;
+}
+.user_unsubscribe h2{
+    color: #161515;
+}
+a:hover{
+color: #4CAF50;
+}
