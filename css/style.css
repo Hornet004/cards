@@ -161,6 +161,9 @@ color: #4CAF50;
 
 /** media query**/
 @media screen and (max-width: 600px) {
+    .image_header {
+        padding: 24px;
+    }
     .produt_details{
         display: flex;
         flex-direction: column;
@@ -168,5 +171,8 @@ color: #4CAF50;
         gap: 4px;
         padding: 16px;
     
+    }
+    .offer{
+        font-size: 24px;
     }
   }
